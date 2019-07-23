@@ -14,19 +14,19 @@ environment:
   DOCKERHUBUSER: diablodale
   DOCKERHUBREPO: gnucashbuilder
   matrix:
-    - OS_DISTTAG: ubuntu-14.04
-    - OS_DISTTAG: ubuntu-16.04
-    - OS_DISTTAG: ubuntu-18.04
-    - OS_DISTTAG: ubuntu-19.04
-    - OS_DISTTAG: debian-8
-    - OS_DISTTAG: debian-9
-    - OS_DISTTAG: debian-10
+    #- OS_DISTTAG: ubuntu-14.04
+    #- OS_DISTTAG: ubuntu-16.04
+    #- OS_DISTTAG: ubuntu-18.04
+    #- OS_DISTTAG: ubuntu-19.04
+    #- OS_DISTTAG: debian-8
+    #- OS_DISTTAG: debian-9
+    #- OS_DISTTAG: debian-10
     - OS_DISTTAG: archlinux
-    - OS_DISTTAG: centos-7
-    - OS_DISTTAG: opensuse-15.0
-    - OS_DISTTAG: opensuse-15.1
-    - OS_DISTTAG: fedora-28
-    - OS_DISTTAG: fedora-29
+    #- OS_DISTTAG: centos-7
+    #- OS_DISTTAG: opensuse-15.0
+    #- OS_DISTTAG: opensuse-15.1
+    #- OS_DISTTAG: fedora-28
+    #- OS_DISTTAG: fedora-29
     - OS_DISTTAG: fedora-30
 
 # cache is restored after init script, after project repo clone, before install script
